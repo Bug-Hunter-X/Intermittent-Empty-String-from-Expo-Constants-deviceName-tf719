@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Constants.deviceName` API in a React Native project.  The API sometimes returns an empty string instead of the actual device name, leading to unexpected behavior in applications that rely on device identification. This issue is intermittent and doesn't occur consistently across devices or Expo SDK versions.
